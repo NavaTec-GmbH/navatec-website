@@ -1,0 +1,40 @@
+extends layout.pug
+
+block content
+  main.d-flex.flex-column.align-items-center.justify-content-center
+    h1.mb-5.d-flex.align-items-center
+      img.d-inline-block.me-2(
+        src="./navatec-logo-round.png",
+        style="height: 1.5em; width: auto",
+        alt="NavaTec Logo"
+      )
+      | NavaTec GmbH
+    img.mb-3.d-block.w-100.h-auto.px-2(
+      style="max-width: 28rem",
+      src="./undraw_programming_re_kg9v.svg",
+      alt="Programming"
+    )
+    section
+      p.mb-5 Wir arbeiten gerade an einer neuen Webpr&auml;senz.
+      h2.h4 Kontakt
+      p.mb-4
+        | NavaTec GmbH
+        br
+        |
+        | Friedrich-D&uuml;rr-Stra&szlig;e 64
+        br
+        |
+        | 74074 Heilbronn
+        br
+        |
+        | Deutschland
+        br
+        |
+        | Tel: 
+        a(href="tel:+4971314057716") +49 7131 4057716
+        br
+        |
+        | Email: 
+        a(href="mailto:info@navatec.de") info@navatec.de
+        br
+      a(href="./imprint.pug") Impressum

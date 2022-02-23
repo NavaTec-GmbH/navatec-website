@@ -2,14 +2,21 @@
   "name": "parcelpug",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx parcel build src/index.pug"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.3.2",
     "@parcel/transformer-pug": "^2.3.2",
-    "parcel": "^2.3.2"
+    "@parcel/transformer-webmanifest": "^2.3.2",
+    "@prettier/plugin-pug": "^1.19.2",
+    "parcel": "^2.3.2",
+    "parcel-optimizer-ogimage": "^0.1.0",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }
