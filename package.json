@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "npx parcel build src/index.pug",
-    "watch": "npx parcel src/index.pug"
+    "build": "npx parcel build src/index.pug src/google7bcbcf23b7b24764.html",
+    "watch": "npx parcel src/index.pug src/google7bcbcf23b7b24764.html"
   },
   "author": "",
   "license": "ISC",
